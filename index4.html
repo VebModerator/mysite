@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sections</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fc0fc0;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #fc0fc0;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    article {
+      flex: 3;
+      margin-right: 20px;
+    }
+    main {
+      display: flex;
+    }
+  </style>
+  <body>
+    <header>Заголовок сайта (верхнее меню)</header>
+    <main>
+      Основной контент страницы
+      <article>
+        <h2>Основаная статья</h2>
+        <section>
+          <h3>Раздел 1</h3>
+          <p>Это содержимое первого раздела основной статьи</p>
+        </section>
+        <section>
+          <h3>Раздел 2</h3>
+          <p>Это содержимое второго раздела основной статьи</p>
+        </section>
+      </article>
+
+      <aside>
+        <h2>Боковая панель</h2>
+        <p>Это содержимое боковой панели</p>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; 2024 пример сайта. Все права защищены</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+.input-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: linear-gradient((to bottom #0056b3 ), (#007bff)); 
+
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    margin-bottom: 20px;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+    font-weight: bold;
+        
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 8px;
+    color: #fff;
+    background: #007bff;
+}
+.input-form button:hover {
+    background: #0056b3;
+}
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.input-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+}
